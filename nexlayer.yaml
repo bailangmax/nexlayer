@@ -1,8 +1,7 @@
 application:
-  name: nexlayer
+  name: web-service
   pods:
     - name: web
       image: ghcr.io/bailangmax/nexlayer:latest
-      path: /
       servicePorts:
         - 3000
