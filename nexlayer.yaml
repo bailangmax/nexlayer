@@ -2,7 +2,7 @@ application:
   name: my-python-app
   pods:
     - name: web
-      image: your-dockerhub-username/your-image:latest
+      image: nexlayer.io/auto
       path: /
       servicePorts:
         - 3000
