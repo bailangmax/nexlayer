@@ -2,7 +2,7 @@ application:
   name: my-python-app
   pods:
     - name: web
-      image: nexlayer.io/auto
+      image: ghcr.io/bailangmax/nexlayer:latest
       path: /
       servicePorts:
         - 3000
