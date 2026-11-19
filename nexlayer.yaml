@@ -1,0 +1,8 @@
+application:
+  name: my-python-app
+  pods:
+    - name: web
+      image: your-dockerhub-username/your-image:latest
+      path: /
+      servicePorts:
+        - 3000
