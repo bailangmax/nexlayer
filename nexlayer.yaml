@@ -1,5 +1,5 @@
 application:
-  name: my-python-app
+  name: nexlayer
   pods:
     - name: web
       image: ghcr.io/bailangmax/nexlayer:latest
